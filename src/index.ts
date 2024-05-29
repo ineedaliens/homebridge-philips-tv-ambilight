@@ -190,7 +190,7 @@ class PhilipsTVAmbilightAccessory implements AccessoryPlugin {
 
     buildRequest(url: string, method: string, body: string) {
         return {
-            url: 'http://' + this.config.ip + ':1925/ambilight/' + url,
+            url: 'https://' + this.config.ip + ':1926/6/ambilight/' + url,
             method: method,
             body: body,
             rejectUnauthorized: false,
